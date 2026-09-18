@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>to do list app </title>
+</head>
+<style>
+    body{
+        background-color: white;
+    }
+    .task{
+        margin: 20px auto;
+        margin-top: 90px;
+        box-shadow: -3PX 1PX 20PX 8px;
+        background-color: aliceblue;
+        height: 430px;
+        width: 50%;
+        border-radius: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+
+    }
+    .task h1{
+         
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: rgb(13, 76, 236);
+    }
+    input{
+        height: 50px;
+        width: 60%;
+        font-size: 20px;
+        border-radius: 10px;
+         border-color: rgb(0, 110, 255);
+         margin-left: 41px;
+    }
+    button{
+       background-color: rgb(28, 79, 245);
+       height: 60px;
+       width: 100px;
+       margin-left: 61px;
+       border: none;
+       color: aliceblue;
+       border-radius: 10px;
+       font-size: 18px;
+       
+      
+    }
+    .tik{
+        margin-top: 51px;
+        margin-left: 31px;
+    }
+    
+    del{
+        margin-left: 310px;
+        font-size: 24px;
+        color: rgb(83, 87, 91);
+    }
+    .dev{
+        height: 40px;
+        background-color: red;
+        
+    }
+
+</style>
+<body>
+    <section class="task">
+        <h1>TASK MANAGER</h1>
+        <input type="text" placeholder="what needs to be done?">
+         <button>add task </button>
+         <div class="tik">
+            ✅
+       <del class="del">task A</del>
+       <button class="dev">remove</button>
+    </div>
+
+    <div class="tik">
+            ✅
+       <del class="del">task B</del>
+       <button class="dev">remove</button>
+    </div>
+
+    <div class="tik">
+            ✅
+       <del class="del">task C</del>
+       <button class="dev">remove</button>
+    </div>
+
+
+    </section>
+
+    
+</body>
+</html>
